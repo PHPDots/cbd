@@ -1,0 +1,547 @@
+@media only screen and (max-width: 1800px) {
+    .our-team-slide {
+        min-height: 650px;
+    }
+}
+@media only screen and (max-width: 1600px) {
+    .our-team-slide {
+        min-height: 600px;
+        height: 600px;
+    }
+    
+}
+@media only screen and (max-width: 1400px) {
+    .our-team-slide {
+        min-height: 500px;
+        height: 500px;
+    }
+}
+/* 1024 */
+@media only screen and (max-width: 1199px) {
+    .banner-caption h1 {
+        font-size: 40px;
+    }
+    .home_slider {
+        min-height: 580px;
+    }
+    .about-inner .office-img {
+        width: 300px;
+        height: 300px;
+    }
+    .about-inner .office-img2 {
+        width: 250px;
+        height: 250px;
+    }
+    .about-inner::before {
+        width: 300px;
+        height: 300px;
+    }
+    .doctor .team .team-info .team-info-inner {
+        padding: 10px 0;
+    }
+    #nav {
+        max-width: 60%;
+    }
+    .custom-tab-section .nav-item {
+        margin-right: 20px;
+    }
+    .custom-tab-section .nav-link {
+        padding: 10px 30px;
+    }
+    .page-sub-title {
+        font-size: 36px;
+    }
+    /*    .our-team-slide {
+            min-height: 410px;
+            height: 500px;
+            display: block;
+        }*/
+    .sub-banner-caption {
+        padding-top: 380px;
+    }
+    .our-team-slide {
+        height: 400px;
+        min-height: 380px;
+    }
+    .contact-appoint-form {
+        bottom: 60px;
+    }
+    .contact-detail-link {
+        font-size: 18px;
+    }
+    .contact-detail-section {
+        padding: 50px 10px 30px 70px;
+    }
+}
+
+/* 768 */
+@media only screen and (max-width: 1023px) {
+    .btn-box .theme-btn {
+        margin-right: 25px;
+    }
+    .banner-caption h1 {
+        font-size: 32px;
+        line-height: initial;
+    }
+    .banner-caption p {
+        font-size: 20px;
+    }
+    .home_slider {
+        min-height: 435px;
+    }
+    .about-inner .office-img {
+        width: 250px;
+        height: 250px;
+        left: 2%;
+    }
+    .about-inner .office-img2 {
+        width: 200px;
+        height: 200px;
+        top: 30%
+    }
+    .about-inner::before {
+        width: 250px;
+        height: 250px;
+        top: 20%;
+    }
+
+    .service .service-box {
+        padding: 10px;
+    }
+    .service-box .ico-wrap {
+        width: 56px;
+        height: 56px;
+        margin-right: 10px;
+        border: solid 4px #d2defc;
+    }
+    .service-box .ico-wrap img {
+        width: 24px;
+    }
+    .service-box .service-title {
+        white-space: nowrap;
+        font-size: 16px;
+    }
+    .appoint-bg {
+        display: none;
+    }
+    .appoint-doctor {
+        display: none;
+    }
+    .doctor .team .team-info .team-info-inner h4 {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+    .doctor .team .team-info .team-info-inner p {
+        font-size: 11px;
+    }
+    .custom-tab-section .nav-item {
+        margin-right: 10px;
+    }
+    .custom-tab-section .nav-link {
+        padding: 10px 16px;
+        font-size: 15px;
+    }
+    .page-sub-title {
+        font-size: 30px;
+    }
+    .our-team-slide {
+        height: 320px;
+        min-height: 320px;
+    }
+    .sub-banner-caption {
+        padding-top: 310px;
+    }
+    .contact-appoint-form h1 {
+        font-size: 36px;
+    }
+    .contact-detail-section:last-child{
+        margin-top: 30px;
+    }
+    .map-section {
+        top: 0;
+        margin-top: 40px;
+    }
+}
+
+/* 736 */
+@media only screen and (max-width: 767px) {
+
+    .sub-title span {
+        font-size: 16px;
+    }
+    .sub-title {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .vidbtn {
+        width: 70px;
+        height: 70px;
+        border: solid 6px aliceblue;
+    }
+    .vidbtn i {
+        font-size: 28px;
+    }
+    .video-controls:before{
+        font-size:16px;
+        font-weight:500;
+        top:22px;
+    }
+    .video-controls:after{
+        font-size:16px;
+        font-weight:500;
+        top:22px;
+    }
+    .video-controls {
+        margin-top: 0;
+    }
+    .navbar-brand {
+        width: 150px;
+    }
+    .menu {
+        top: 0;
+    }
+    .navbar {
+        padding: .5rem 0rem;
+    }
+    #nav {
+        padding: 70px 30px 0 30px;
+        max-width: 90%;
+    }
+    #nav ul.main li a {
+        font-size: 16px;
+    }
+    #category-tabs li a i {
+        font-size: 12px;
+    }
+    #category-tabs li ul li a {
+        font-size: 14px !important;
+        padding: 5px 0 !important;
+    }
+    .mobile-menu-bottom #menu-secondary .menu-item a {
+        padding: 3px 0;
+        font-size: 12px;
+    }
+    .mobile-menu-bottom .menu-footer {
+        font-size: 13px;
+    }
+    .home_slider {
+        min-height: 415px;
+    }
+    #myHeader .btn-box {
+        margin-top: 15px;
+        width: 100%;
+        justify-content: space-between;
+    }
+    #myHeader .btn-box .theme-btn {
+        margin-right: 10px;
+    }
+    #myHeader .btn-box .theme-btn:last-child {
+        margin-right: 0;
+    }
+    .banner-caption {
+        display: none;
+    }
+    .about {
+        padding: 40px 0;
+    }
+    .about .mar-t-50 {
+        margin-top: 0 !important;
+    }
+    .about-inner .office-img {
+        display: none;
+    }
+    .about-inner .office-img2 {
+        display: none;
+    }
+    .about-inner::before {
+        display: none;
+    }
+    .about-inner p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .service {
+        padding: 20px 0;
+    }
+    .service .col-md-4:last-child .service-box {
+        margin-bottom: 0;
+    }
+    .service .service-box {
+        padding: 25px;
+        margin-bottom: 30px;
+    }
+    .appointment {
+        background-image: none;
+        padding: 40px 0;
+    }
+    .doctor .col-md-3 {
+        width: 50%;
+    }
+    .doctor {
+        padding: 40px 0;
+    }
+    .doctor .team {
+        margin-bottom: 30px;
+    }
+    .doctor .team img {
+        width: 100%;
+    }
+    .doctor .col-md-3:nth-child(4) .team {
+        margin-bottom: 0;
+    }
+    .doctor .col-md-3:nth-child(5) .team {
+        margin-bottom: 0;
+    }
+    .testimonial-wrap .carousel-control-prev {
+        left: -15px;
+    }
+    .testimonial-wrap .carousel-control-next {
+        right: -15px;
+    }
+    .video-section {
+        padding: 40px 0;
+    }
+    .video-section .twitter-feed {
+        font-size: 16px;
+        margin-top: 30px; 
+    }
+    .video-section .twitter-feed i {
+        font-size: 40px;
+    }
+    .video-section .twitter-feed p a {
+        font-size: 16px;
+        margin: 15px 0;
+    }
+    footer .footer-top {
+        padding: 40px 0;
+    }
+    footer .footer-top li {
+        margin-bottom: 10px;
+    }
+    .footer-top .footer-menu {
+        margin-bottom: 30px;
+    }
+    .footer-top .footer-contact {
+        margin-bottom: 30px;
+    }
+    footer .copy-right .copy-right-text {
+        text-align: left;
+    }
+    footer .copy-right {
+        line-height: 35px;
+    }
+    .custom-tab-section .nav-item {
+        margin-right: 0px;
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .our-team-slide {
+        height: 320px;
+        min-height: 320px;
+    }
+    .svg-bg {
+        display: none;
+    }
+    .header-bg::before {
+        display: none;
+    }
+    .header-bg::after {
+        content: '';
+        display: block;
+        height: 250px;
+        width: 100%;
+        background-color: #5081f4;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+    }
+    .contact-detail-section {
+        margin-bottom: 40px;
+    }
+    .contact-appoint-form {
+        bottom: 0px;
+        margin: 60px 0px;
+    }
+    .contact-detail-section:last-child {
+        margin-top: 0px;
+    }
+    .map-section {
+        margin-top: 0px;
+    }
+    .faq-title {
+        font-size: 24px;
+    }
+
+
+}
+
+/* 667 */
+@media only screen and (max-width: 735px) {
+    .home_slider {
+        min-height: 380px;
+    }
+    .our-team-slide {
+        height: 320px;
+        min-height: 320px;
+    }
+
+}
+
+
+/* 600 */
+@media only screen and (max-width: 666px) {
+.make_appointment .modal-dialog {
+	max-width: 100%;
+	margin: 4.75rem 15px 1.75rem;
+}
+}
+
+/* 568 */
+@media only screen and (max-width: 599px) {
+
+}
+
+/* 480 */
+@media only screen and (max-width: 567px) {
+    .our-team-slide {
+        min-height: 250px;
+        height: 250px;
+    }
+    .header-bg::after {
+        height: 210px;
+    }
+    .page-sub-title {
+        font-size: 21px;
+    }
+    .mar-b-60 {
+        margin-bottom: 30px;
+    }
+    .mar-b-40 {
+        margin-bottom: 0px;
+
+    }
+    .page-title h5 {
+        font-size: 18px;
+    }
+    .page-sub-txt br {
+        display: none;
+    }
+    .page-sub-txt {
+        font-size: 18px;
+    }
+    .office-tour-video::after{
+        display: none;
+    }
+    .office-tour-video::before{
+        display: none;
+    }
+    .contact-appoint-form {
+        margin: 40px 0px;
+        padding: 40px 20px;
+    }
+    .contact-appoint-form h1 {
+        margin-bottom: 30px;
+        font-size: 24px;
+    }
+    .contact-appoint-form .text-center {
+        text-align: left !important;
+    }
+    .faq-section .panel-title > a {
+        margin-right: 25px;
+    }
+    video {
+        width: auto;
+        height: auto;
+    }
+
+}
+
+/* 414 */
+@media only screen and (max-width: 479px) {
+    .sub-title span {
+        font-size: 14px;
+        margin-bottom: 5px
+    }
+    .sub-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .doctor .team {
+        height: 215px;
+    }
+    .doctor .team img {
+        height: 100%;
+    }
+    .doctor .team .team-info .team-info-inner h4 {
+        margin-bottom: 2px;
+    }
+    .contact-detail-link {
+        font-size: 18px;
+    }
+
+}
+
+/* 375 */
+@media only screen and (max-width: 413px) {
+    #myHeader .theme-btn {
+        font-size: 14px;
+        padding: 0 20px;
+        padding-left: 55px;
+    }
+    #myHeader .theme-btn .btn-icon {
+        top: 6px;
+        width: 32px;
+        height: 32px;
+        line-height: 30px;
+    }
+    #myHeader .theme-btn span {
+        font-size: 10px;
+    }
+    .doctor .team {
+        height: 200px;
+    }
+    .effect-doctor a {
+        width: 32px;
+        height: 32px;
+        line-height: 30px;
+    }
+
+
+}
+
+/* 320 */
+@media only screen and (max-width: 374px) {
+    #myHeader .theme-btn {
+        font-size: 13px;
+        padding: 0 15px;
+        padding-left: 45px;
+    }
+    #myHeader .theme-btn .btn-icon {
+        top: 7px;
+        width: 30px;
+        height: 30px;
+        line-height: 28px;
+    }
+    #myHeader .theme-btn span {
+        font-size: 9px;
+    }
+    .doctor .team {
+        height: 180px;
+    }
+    .doctor .team .team-info .team-info-inner h4 {
+        font-size: 12px;
+    }
+    .doctor .team .team-info .team-info-inner p {
+        font-size: 12px;
+    }
+    .doctor .team .team-info .team-info-inner {
+        padding: 7px;
+    }
+    .effect-doctor a {
+        margin: 7px;
+        margin-left: 10px;
+    }
+}
+
+
+

@@ -1,0 +1,17 @@
+[19-Feb-2019 03:06:51 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home/chicagosbestdent/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[19-Feb-2019 09:07:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/chicagosbestdent/public_html/vendor/symfony/polyfill-mbstring/Mbstring.php:500
+Stack trace:
+#0 /home/chicagosbestdent/public_html/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/chicagosbestdent/public_html/vendor/laravel/framework/src/Illuminate/Support/Str.php(103): mb_strpos(NULL, '/json')
+#2 /home/chicagosbestdent/public_html/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/chicagosbestdent/public_html/vendor/laravel/framework/src/Illuminate/Http/Request.php(339): Illuminate\Http\Request->isJson()
+#4 /home/chicagosbestdent/public_html/vendor/laravel/framework/src/Illuminate/Http/Request.php(371): Illuminate\Http\Request->getInputSource()
+#5 /home/chicagosbestdent/public_html/vendor/laravel/framework/src/Illuminate/Http/Request.php(59):  in /home/chicagosbestdent/public_html/vendor/symfony/polyfill-mbstring/Mbstring.php on line 500
+[19-Feb-2019 09:09:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/chicagosbestdent/public_html/vendor/symfony/polyfill-mbstring/Mbstring.php:500
+Stack trace:
+#0 /home/chicagosbestdent/public_html/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/chicagosbestdent/public_html/vendor/laravel/framework/src/Illuminate/Support/Str.php(103): mb_strpos(NULL, '/json')
+#2 /home/chicagosbestdent/public_html/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/chicagosbestdent/public_html/vendor/laravel/framework/src/Illuminate/Http/Request.php(339): Illuminate\Http\Request->isJson()
+#4 /home/chicagosbestdent/public_html/vendor/laravel/framework/src/Illuminate/Http/Request.php(371): Illuminate\Http\Request->getInputSource()
+#5 /home/chicagosbestdent/public_html/vendor/laravel/framework/src/Illuminate/Http/Request.php(59):  in /home/chicagosbestdent/public_html/vendor/symfony/polyfill-mbstring/Mbstring.php on line 500
