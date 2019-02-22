@@ -192,7 +192,6 @@ class PagesController extends Controller
             $data['message'] = $request->get("message");
 
             $email = env("CONTACT_EMAIL");
-            $email = "kishan.lashkari@phpdots.com";
             $subject = "Appointment details from Windy City Family Dental";
             $returnHTML = view('emails.contact',$data)->render();
             $params["to"] = $email;

@@ -114,7 +114,7 @@
 						<span>Appointment form</span>Make an Appointment
 					</h2>
 					<div class="appoint-form">						
-						{!! Form::open(['route' => 'submit-contact', 'files' => true,'id' => 'submit-contact']) !!}
+						{!! Form::open(['route' => 'submit-contact', 'files' => true,'class' => 'submit-contact']) !!}
 							<div class="row">
 								<div class="col-md-12 mar-b-30">        
 							        {!! 

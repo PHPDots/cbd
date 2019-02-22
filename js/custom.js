@@ -16,7 +16,7 @@ function myFunction() {
 }
 
 $(document).ready(function(){
-        $('#submit-contact').submit(function () {
+        $('.submit-contact').submit(function () {
             var self = $(this);
             $('#AjaxLoaderDiv').fadeIn('slow');
             $.ajax({

@@ -38,67 +38,46 @@
                 <div class="col-md-6 col-sm-12">
 
                     <h2 class="sub-title font-bold">
-                    	<span>Appointment form</span>Make an Appointment
+                    	What is Lorem Ipsum?
                     </h2>
 
                     <div class="appoint-form">
-                        <form>
-                            <div class="row">
-                                <div class="col-md-6 mar-b-30">
-                                    <input class="form-control" placeholder="Name" type="text" />
-                                </div>
-                                <div class="col-md-6 mar-b-30">
-                                    <input class="form-control" placeholder="Email" type="text" />
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6 mar-b-30">
-                                    <input class="form-control" placeholder="Phone Number" type="text" />
-                                </div>
-                                <div class="col-md-6 mar-b-30">
-                                    <input class="form-control" placeholder="Date" type="text" />
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12 mar-b-30">
-                                    <textarea class="form-control" rows="4" id="comment" placeholder="Message"></textarea>
-                                </div>
-                            </div>
-                            <div class="d-flex">
-                                <a class="theme-btn" href="#"><i class="btn-img"></i>Submit</a>
-                            </div>
-                        </form>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-12">
                     <div class="appoint-form contact-appoint-form">
-                        <h2 class="text-center txt-white font-bold mar-b-40">Appointment</h2>
-                        <form>
+                        <h2 class="text-center txt-white font-bold mar-b-40">Make an Appointment</h2>
+                        {!! Form::open(['route' => 'submit-contact', 'files' => true,'class' => 'submit-contact']) !!}
                             <div class="row">
                                 <div class="col-md-12 mar-b-30">
-                                    <input class="form-control" placeholder="Name" type="text">
-                                </div>
-                                <div class="col-md-12 mar-b-30">
-                                    <input class="form-control" placeholder="Email" type="text">
+                                    {!! 
+                                        Form::text('name',null,['class' => 'form-control', "placeholder" => "Your Name"]) 
+                                    !!}                                    
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-12 mar-b-30">
-                                    <input class="form-control" placeholder="Phone Number" type="text">
-                                </div>
-                                <div class="col-md-12 mar-b-30">
-                                    <input class="form-control" placeholder="Date" type="text">
+                                    {!! 
+                                        Form::text('email',null,['class' => 'form-control', "placeholder" => "Your Email"]) 
+                                    !!}                                                                     
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-12 mar-b-30">
-                                    <textarea class="form-control" rows="4" id="comment" placeholder="Message"></textarea>
+                                    {!! 
+                                        Form::textarea('message',null,['class' => 'form-control', "placeholder" => "Your Message","rows" => 4]) 
+                                    !!}                                    
                                 </div>
                             </div>
                             <div class="d-flex">
-                                <a class="theme-btn" href="#"><i class="btn-img"></i>Submit</a>
+                                <input type="hidden" name="page" value="contact" />                                
+                                <button class="theme-btn">
+                                    <i class="btn-img"></i> Submit
+                                </button>
+
                             </div>
-                        </form>
+                        {!! Form::close() !!}
                     </div>
                 </div>
             </div>

@@ -10,18 +10,26 @@
 			<!-- Modal body -->
 			<div class="modal-body">
 				<p>If you have any questions about our dental services, office hours, accepted dental insurance plans, or payment options – or if you have compliments or concerns about your dental experience – please contact us at (312) 236-8065 or submit the form below.</p>
-				<form action="">
+
+				{!! Form::open(['route' => 'submit-contact', 'files' => true,'class' => 'submit-contact']) !!}
 					<div class="form-group">
-						<input type="text" class="form-control" placeholder="Your Name">
+				        {!! 
+				        	Form::text('name',null,['class' => 'form-control', "placeholder" => "Your Name"]) 
+				        !!}						
 					</div>
 					<div class="form-group">
-						<input type="email" class="form-control" id="" placeholder="Your Email">
+				        {!! 
+				        	Form::text('email',null,['class' => 'form-control', "placeholder" => "Your Email"]) 
+				        !!}							        						
 					</div>
 					<div class="form-group">
-						<textarea class="form-control" rows="3" placeholder="Your Message"></textarea>
+				        {!! 
+				        	Form::textarea('message',null,['class' => 'form-control', "placeholder" => "Your Message","rows" => 4]) 
+				        !!}						
 					</div>
-					<button type="submit" class="theme-btn"><i class="btn-img"></i>Send</button>
-				</form>
+					<input type="hidden" name="page" value="home" />
+					<button type="submit" class="theme-btn"><i class="btn-img"></i>Send</button>				
+				{!! Form::close() !!}
 			</div>
 		</div>
 	</div>
