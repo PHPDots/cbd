@@ -1,0 +1,15 @@
+/node_modules
+/public/storage
+/public/
+/uploads/
+/uploads/*
+/public/stripe_logs
+/public/.htaccess
+/storage/
+/vendor
+/storage/
+/tests/
+/.idea
+Homestead.json
+Homestead.yaml
+.env
